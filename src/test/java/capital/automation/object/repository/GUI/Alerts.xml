@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Alerts>
+    <Navigation>
+        <AlertsMainLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Alerts')]</Element>
+        </AlertsMainLabel>
+        <AlertsMainIcon>
+            <identifier>xpath</identifier>
+            <Element>//img[contains(@src, 'bell_white.svg')]</Element>
+        </AlertsMainIcon>
+    </Navigation>
+    <Buttons>
+    </Buttons>
+    <Validation>
+        <NotificationsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Notifications')]</Element>
+        </NotificationsLabel>
+    </Validation>
+</Alerts>

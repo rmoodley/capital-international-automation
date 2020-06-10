@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Messages>
+    <Navigation>
+        <MessagesMainLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Messages')]</Element>
+        </MessagesMainLabel>
+        <MessagesMainIcon>
+            <identifier>xpath</identifier>
+            <Element>//img[contains(@src, 'mail.svg')]</Element>
+        </MessagesMainIcon>
+        <MessagesLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Messages')]</Element>
+        </MessagesLabel>
+        <NoticesLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Notices')]</Element>
+        </NoticesLabel>
+        <MessagesBackLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'subdirectory_arrow_left')]</Element>
+        </MessagesBackLabel>
+    </Navigation>
+    <Buttons>
+    </Buttons>
+    <Validation>
+    </Validation>
+</Messages>

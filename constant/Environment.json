@@ -1,0 +1,36 @@
+{
+  "weburl":"",
+  "webusername":"",
+  "webpassword":"",
+  "thinktimelow": "1000",
+  "thinktimemedium": "5000",
+  "thinktimehigh": "15000",
+
+  "testurl":"",
+  "testmanagement":"",
+  "testmanagememntusername":"",
+  "testmanagmentpassword":"",
+  "domain":"",
+  "project":"",
+
+  "dbhost":"",
+  "dbusername":"",
+  "dbpass":"",
+
+  "appendreport":"true",
+  "reportname":"test",
+
+  "datatype":"EXCEL",
+  "iosusername":"",
+  "iospassword":"",
+  "androidusername":"",
+  "androidpassword":"",
+  "windowsappusername":"",
+  "windowsapppassword":"",
+  "sendemail": "",
+  "emailfrom": "",
+  "emailto": "",
+  "browserDrivers":"",
+
+  "screenshotcapture":"false"
+}

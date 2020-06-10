@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccountSettings>
+    <Navigation>
+        <AccountSettingsMainLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Account settings')]</Element>
+        </AccountSettingsMainLabel>
+        <AccountSettingsMainIcon>
+            <identifier>xpath</identifier>
+            <Element>//img[contains(@src, 'acc_settings.svg')]</Element>
+        </AccountSettingsMainIcon>
+        <PersonalDetailsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Personal details')]</Element>
+        </PersonalDetailsLabel>
+        <ConnectionsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Connections')]</Element>
+        </ConnectionsLabel>
+        <NotificationSettingsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Notification settings')]</Element>
+        </NotificationSettingsLabel>
+        <ChangePasswordLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Change password')]</Element>
+        </ChangePasswordLabel>
+        <Change2FaDeviceLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Change 2FA device')]</Element>
+        </Change2FaDeviceLabel>
+        <PreferencesLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Preferences')]</Element>
+        </PreferencesLabel>
+        <LogoutLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Logout')]</Element>
+        </LogoutLabel>
+        <AccountSettingsBackLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'subdirectory_arrow_left')]</Element>
+        </AccountSettingsBackLabel>
+    </Navigation>
+    <Buttons>
+        <LogoutButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Logout') and @class='mat-button-wrapper']</Element>
+        </LogoutButton>
+        <Reset2FAButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Reset 2FA') and @class='mat-button-wrapper']</Element>
+        </Reset2FAButton>
+    </Buttons>
+    <Validation>
+        <UsernameTitle>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Username')]</Element>
+        </UsernameTitle>
+        <CurrencyTitle>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Currency and region settings')]</Element>
+        </CurrencyTitle>
+    </Validation>
+</AccountSettings>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Common>
+    <Login>
+        <UsernameTextBox>
+            <identifier>xpath</identifier>
+            <Element>//*[@id="email"]</Element>
+        </UsernameTextBox>
+        <PasswordTextBox>
+            <identifier>xpath</identifier>
+            <Element>//*[@id="password"]</Element>
+        </PasswordTextBox>
+        <LoginButton>
+            <identifier>xpath</identifier>
+            <Element>//*[@id="login-btn"]</Element>
+        </LoginButton>
+        <ForgotPasswordLink>
+            <identifier>xpath</identifier>
+            <Element>//*[@id="forgot-password"]</Element>
+        </ForgotPasswordLink>
+        <IncorrectLoginMessage>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Email or password incorrect')]</Element>
+        </IncorrectLoginMessage>
+        <SuccessfulLoginMessage>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Login successful')]</Element>
+        </SuccessfulLoginMessage>
+        <EmailRequiredMessage>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Email is required')]</Element>
+        </EmailRequiredMessage>
+        <PasswordRequiredMessage>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Password is required')]</Element>
+        </PasswordRequiredMessage>
+        <EmailPasswordRequiredMessage>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'is required')]</Element>
+        </EmailPasswordRequiredMessage>
+        <Welcome>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Welcome')]</Element>
+        </Welcome>
+    </Login>
+    <Buttons>
+        <ResetButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Reset') and @class='mat-button-wrapper']</Element>
+        </ResetButton>
+        <ShowButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Show') and @class='mat-button-wrapper']</Element>
+        </ShowButton>
+        <CancelButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Cancel') and @class='mat-button-wrapper']</Element>
+        </CancelButton>
+        <ClearButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Clear') and @class='mat-button-wrapper']</Element>
+        </ClearButton>
+        <CreateButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Create') and @class='mat-button-wrapper']</Element>
+        </CreateButton>
+        <ConfirmButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Confirm') and @class='mat-button-wrapper']</Element>
+        </ConfirmButton>
+    </Buttons>
+    <Validation>
+        <LoadingScreen>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/app-loader/ngx-spinner/div[1]</Element>
+        </LoadingScreen>
+    </Validation>
+</Common>

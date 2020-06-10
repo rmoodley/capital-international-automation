@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Accounts>
+    <Navigation>
+        <AccountsMainLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Accounts')]</Element>
+        </AccountsMainLabel>
+        <AccountsMainIcon>
+            <identifier>xpath</identifier>
+            <Element>//img[contains(@src, 'accounts.svg')]</Element>
+        </AccountsMainIcon>
+        <AccountsMainIcon1>
+            <identifier>xpath</identifier>
+            <Element>//img[contains(@src, 'accounts.svg')]</Element>
+        </AccountsMainIcon1>
+        <AccountsListLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Accounts List')]</Element>
+        </AccountsListLabel>
+        <AccountApplicationsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Submitted Applications')]</Element>
+        </AccountApplicationsLabel>
+        <AccountApplicationsLabelPrevious>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Account Applications')]</Element>
+        </AccountApplicationsLabelPrevious>
+        <AccountMandatesLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Mandates')]</Element>
+        </AccountMandatesLabel>
+        <AccountUserManagementLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'User Management')]</Element>
+        </AccountUserManagementLabel>
+        <AccountsBackLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'subdirectory_arrow_left')]</Element>
+        </AccountsBackLabel>
+    </Navigation>
+    <AccountApplications>
+        <CorporateBusinessLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Corporate / Business')]</Element>
+        </CorporateBusinessLabel>
+        <YesApplicantRadioButton>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Yes')]</Element>
+        </YesApplicantRadioButton>
+        <NoApplicantRadioButton>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'No')]</Element>
+        </NoApplicantRadioButton>
+        <AreYouRadioButton>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(@class,'mat-radio-label-content')]</Element>
+        </AreYouRadioButton>
+        <YesConfirmFaceToFaceRadioButton>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[3]/div/div/div[2]/div/div/div/div/div[1]/div[2]/div/mat-radio-group/mat-radio-button[1]/label/div[2]</Element>
+        </YesConfirmFaceToFaceRadioButton>
+        <NoConfirmFaceToFaceRadioButton>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[3]/div/div/div[2]/div/div/div/div/div[1]/div[2]/div/mat-radio-group/mat-radio-button[2]/label/div[2]</Element>
+        </NoConfirmFaceToFaceRadioButton>
+        <NewClientRadioButton>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'New')]</Element>
+        </NewClientRadioButton>
+        <ExistingClientRadioButton>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Existing')]</Element>
+        </ExistingClientRadioButton>CompanyListedRegulated
+
+        <CompanyListedRegulatedRadioButton>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(@class,'mat-radio-label-content')]</Element>
+        </CompanyListedRegulatedRadioButton>
+        <CountryOfIncorporationDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/div/app-select/ng-select/div/div/div[2]/input</Element>
+        </CountryOfIncorporationDropDown>
+        <CountryOfIncorporationHighlightDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/div/app-select/ng-select/ng-dropdown-panel/div/div[2]/div/div/h6/span</Element>
+        </CountryOfIncorporationHighlightDropDown>
+        <NatureOfBusinessDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[3]/div/div/div/div/div/div/app-select/ng-select/div/div/div[2]/input</Element>
+        </NatureOfBusinessDropDown>
+        <NatureOfBusinessHighlightDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[3]/div/div/div/div/div/div/app-select/ng-select/ng-dropdown-panel/div/div[2]/div/div/h6/span</Element>
+        </NatureOfBusinessHighlightDropDown>
+
+        <CountryManagedAndControlledDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div/app-select/ng-select/div/div/div[2]/input</Element>
+        </CountryManagedAndControlledDropDown>
+        <CountryManagedAndControlledHighlightDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div/app-select/ng-select/ng-dropdown-panel/div/div[2]/div/div/h6/span</Element>
+        </CountryManagedAndControlledHighlightDropDown>
+        <CountryCompanyOperateDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/div/app-select/ng-select/div/div/div[2]/input</Element>
+        </CountryCompanyOperateDropDown>
+        <CountryCompanyOperateHighlightDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/div/app-select/ng-select/ng-dropdown-panel/div/div[2]/div/div/h6/span</Element>
+        </CountryCompanyOperateHighlightDropDown>
+        <CompanyStructureRadioButton>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(@class,'mat-radio-label-content')]</Element>
+        </CompanyStructureRadioButton>
+        <CountryOfResidenceDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[4]/div/div/div/div/div/div/app-select/ng-select/div/div/div[2]/input</Element>
+        </CountryOfResidenceDropDown>
+        <CountryOfResidenceHighlightDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[4]/div/div/div/div/div/div/app-select/ng-select/ng-dropdown-panel/div/div[2]/div/div/h6/span</Element>
+        </CountryOfResidenceHighlightDropDown>
+
+        <YesPEPRadioButton>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div[1]/div[2]/div/mat-radio-group/mat-radio-button[1]/label/div[2]</Element>
+        </YesPEPRadioButton>
+        <NoPEPRadioButton>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div[1]/div[2]/div/mat-radio-group/mat-radio-button[2]/label/div[2]</Element>
+        </NoPEPRadioButton>
+        <YesCriminalChargesRadioButton>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[4]/div/div/div/div/div/div/div/div[1]/div[2]/div/mat-radio-group/mat-radio-button[1]/label/div[2]</Element>
+        </YesCriminalChargesRadioButton>
+        <NoCriminalChargesRadioButton>
+            <identifier>xpath</identifier>
+            <Element>//html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[4]/div/div/div/div/div/div/div/div[1]/div[2]/div/mat-radio-group/mat-radio-button[2]/label/div[2]</Element>
+        </NoCriminalChargesRadioButton>
+        <CountryOfPEPDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[3]/div/div/div/div/div/div/div/div/div/app-select/ng-select/div/div/div[2]/input</Element>
+        </CountryOfPEPDropDown>
+        <CountryOfPEPHighlightDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[3]/div/div/div/div/div/div/div/div/div/app-select/ng-select/ng-dropdown-panel/div/div[2]/div/div/h6/span</Element>
+        </CountryOfPEPHighlightDropDown>
+
+        <CountryTransferredFromDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/app-select/ng-select/div/div/div[2]/input</Element>
+        </CountryTransferredFromDropDown>
+        <CountryTransferredFromHighlightDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/app-select/ng-select/ng-dropdown-panel/div/div[2]/div/div/h6/span</Element>
+        </CountryTransferredFromHighlightDropDown>
+
+        <CountrySourceOfWealthDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div[1]/div/app-select/ng-select/div/div/div[2]/input</Element>
+        </CountrySourceOfWealthDropDown>
+        <CountrySourceOfWealthHighlightDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div[1]/div/app-select/ng-select/ng-dropdown-panel/div/div[2]/div/div/h6/span</Element>
+        </CountrySourceOfWealthHighlightDropDown>
+
+        <DerivedSourceOfWealthDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[3]/div/div/div/div/div[1]/div/app-select/ng-select/div/div/div[2]/input</Element>
+        </DerivedSourceOfWealthDropDown>
+        <DerivedSourceOfWealthHighlightDropDown>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-dynamic/div/div/div[2]/div[2]/div/div/div[3]/div/div/div/div/div[1]/div/app-select/ng-select/ng-dropdown-panel/div/div[2]/div/div/h6/span</Element>
+        </DerivedSourceOfWealthHighlightDropDown>
+
+    </AccountApplications>
+    <Buttons>
+        <CreateNewApplicationButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Create new application') and @class='mat-button-wrapper']</Element>
+        </CreateNewApplicationButton>
+        <NextButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Next') and @class='mat-button-wrapper']</Element>
+        </NextButton>
+        <BackButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Back') and @class='mat-button-wrapper']</Element>
+        </BackButton>
+    </Buttons>
+    <Validation>
+        <ClientNameLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Client name')]</Element>
+        </ClientNameLabel>
+        <UserManagementTitle>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-user-administrator/div/div/h2</Element>
+        </UserManagementTitle>
+        <RejectPreApp>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Thank you for completing our pre-application questions; unfortunately')]</Element>
+        </RejectPreApp>
+        <SuccessPreApp>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Indicative Assessment and Charges')]</Element>
+        </SuccessPreApp>
+    </Validation>
+</Accounts>

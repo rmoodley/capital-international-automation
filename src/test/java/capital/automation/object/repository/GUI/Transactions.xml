@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transactions>
+    <Navigation>
+        <TransactionsMainLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Transactions')]</Element>
+        </TransactionsMainLabel>
+        <TransactionsMainIcon>
+            <identifier>xpath</identifier>
+            <Element>//img[contains(@src, 'money.svg')]</Element>
+        </TransactionsMainIcon>
+        <AllTransactionsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'All Transactions')]</Element>
+        </AllTransactionsLabel>
+        <FxHistoryLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'FX History')]</Element>
+        </FxHistoryLabel>
+        <PaymentsHistoryLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Payments History')]</Element>
+        </PaymentsHistoryLabel>
+        <TransactionsBackLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'subdirectory_arrow_left')]</Element>
+        </TransactionsBackLabel>
+    </Navigation>
+    <Buttons>
+    </Buttons>
+    <Validation>
+        <TransactionsTable>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(text(),'Please apply search criteria to view transactions.')]</Element>
+        </TransactionsTable>
+        <FxHistoryTable>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-fx-history/div/div/table/thead/tr/th[1]</Element>
+        </FxHistoryTable>
+        <PaymentsHistoryTable>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-payments-history/div/div/table/thead/tr/th[1]</Element>
+        </PaymentsHistoryTable>
+    </Validation>
+</Transactions>

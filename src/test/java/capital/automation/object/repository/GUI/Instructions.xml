@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Instructions>
+    <Navigation>
+        <InstructionsMainLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Instructions')]</Element>
+        </InstructionsMainLabel>
+        <InstructionsMainIcon>
+            <identifier>xpath</identifier>
+            <Element>//img[contains(@src, 'instructions.svg')]</Element>
+        </InstructionsMainIcon>
+        <FXLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'FX')]</Element>
+        </FXLabel>
+        <PaymentsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Payments')]</Element>
+        </PaymentsLabel>
+        <BeneficiariesMainLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Beneficiaries')]</Element>
+        </BeneficiariesMainLabel>
+        <ScheduledPaymentsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Scheduled Payments')]</Element>
+        </ScheduledPaymentsLabel>
+        <BulkImportsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Bulk Imports')]</Element>
+        </BulkImportsLabel>
+        <InstructionsBackLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'subdirectory_arrow_left')]</Element>
+        </InstructionsBackLabel>
+    </Navigation>
+    <Buttons>
+        <UploadAndAddButton>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(./text(),'Upload and add') and @class='mat-button-wrapper']</Element>
+        </UploadAndAddButton>
+    </Buttons>
+    <Validation>
+        <FXTable>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-new-fx-order/div/div/table/thead/tr[2]/th[1]</Element>
+        </FXTable>
+        <PaymentFormLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'New payment')]</Element>
+        </PaymentFormLabel>
+        <BeneficiariesLabel>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-manage-beneficiaries/div/div/table/tbody/tr[1]/td[1]</Element>
+        </BeneficiariesLabel>
+        <ScheduledPaymentsTable>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-manage-payments/div/div/table/tbody/tr[1]/td[1]</Element>
+        </ScheduledPaymentsTable>
+        <BulkImportTitle>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-bulk-imports/div/div/h2</Element>
+        </BulkImportTitle>
+    </Validation>
+</Instructions>

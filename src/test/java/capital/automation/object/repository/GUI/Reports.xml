@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Reports>
+    <Navigation>
+        <ReportsMainLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Reports')]</Element>
+        </ReportsMainLabel>
+        <ReportsMainIcon>
+            <identifier>xpath</identifier>
+            <Element>//img[contains(@src, 'reports.svg')]</Element>
+        </ReportsMainIcon>
+        <StatementsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Statements')]</Element>
+        </StatementsLabel>
+        <ReportsBackLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'subdirectory_arrow_left')]</Element>
+        </ReportsBackLabel>
+    </Navigation>
+    <Buttons>
+    </Buttons>
+    <Validation>
+    </Validation>
+</Reports>

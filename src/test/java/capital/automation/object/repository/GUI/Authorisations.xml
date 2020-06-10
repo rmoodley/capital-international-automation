@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Authorisations>
+    <Navigation>
+        <AuthorisationsMainLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Authorisations')]</Element>
+        </AuthorisationsMainLabel>
+        <AuthorisationsMainIcon>
+            <identifier>xpath</identifier>
+            <Element>//img[contains(@src, 'instructions.svg')]</Element>
+        </AuthorisationsMainIcon>
+        <HistoryLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'History')]</Element>
+        </HistoryLabel>
+        <OutstandingLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Outstanding')]</Element>
+        </OutstandingLabel>
+        <StatusofRequestsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'Status of Requests')]</Element>
+        </StatusofRequestsLabel>
+        <HistoryofRequestsLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'History of Requests')]</Element>
+        </HistoryofRequestsLabel>
+        <AuthorisationsBackLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'subdirectory_arrow_left')]</Element>
+        </AuthorisationsBackLabel>
+    </Navigation>
+    <Buttons>
+    </Buttons>
+    <Validation>
+        <HistoryTable>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-authorisations-history/div/div/table/thead/tr/th[1]</Element>
+        </HistoryTable>
+        <AuthorisationsTableLabel>
+            <identifier>xpath</identifier>
+            <Element>/html/body/app-root/mat-sidenav-container/mat-sidenav-content/app-authorisations-outstanding/div/div/div[5]/table/thead/tr[2]/th[1]</Element>
+        </AuthorisationsTableLabel>
+        <StatusOfRequestsTableLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'There are no pending profile updates.')]</Element>
+        </StatusOfRequestsTableLabel>
+        <HistoryOfRequestsTableLabel>
+            <identifier>xpath</identifier>
+            <Element>//*[contains(./text(),'There are no historic profile updates.')]</Element>
+        </HistoryOfRequestsTableLabel>
+    </Validation>
+</Authorisations>
